@@ -44,8 +44,9 @@ while alternativa != "4":
                     print(" "*5,cod," "*10,ca)
                 print("*"*59)
                 input("Presione una tecla para continuar...")
+                
             elif alternativa1 == "3":
-                print("Salir de menú")
+                continue
 
     if alternativa == "2":
         alternativa1 = ""
@@ -78,6 +79,9 @@ while alternativa != "4":
                     print(" "*5,cod," "*11,des)
                 print("*"*57)
                 input("Presione una tecla para continuar...")
+            
+            elif alternativa1 == "3":
+                continue
 
     if alternativa == "3":
         alternativa1 = ""
@@ -159,8 +163,8 @@ while alternativa != "4":
                 print("*"*100)
                 input("Presione una tecla para continuar...")
 
-            elif alternativa1 =="3":
-                print("Salir de menú")
+            elif alternativa1 == "3":
+                continue
 
 os.system("cls")
 print("Gracias por visitarnos.")
